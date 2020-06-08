@@ -18,6 +18,4 @@ const array_diff = (someArr, aThing) => {
 }
 
 //////// the best solution: ////////
-const array_diff = (a, b) => {
-    return a.filter(elem => !b.includes(elem));
-};
+const array_diff = (a, b) => a.filter(elem => !b.includes(elem));
