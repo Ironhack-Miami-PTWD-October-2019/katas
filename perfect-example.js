@@ -11,13 +11,13 @@
 
 
 //////// my solution: ////////
-const arrayDif = (someArr, aThing) => {
+const array_diff = (someArr, aThing) => {
     const updArr = [];
     someArr.forEach(elem => !aThing.includes(elem) ? updArr.push(elem) : null)
     return updArr;
 }
 
 //////// the best solution: ////////
-const arrayDiff = (a, b) => {
+const array_diff = (a, b) => {
     return a.filter(elem => !b.includes(elem));
 };
